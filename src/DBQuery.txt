@@ -1,0 +1,9 @@
+create database 0150Project;
+Query OK, 1 row affected (0.82 sec)
+
+use 0150Project;
+Database changed
+
+create table Student(sid int primary key auto_increment,sname varchar(50),smail varchar(20) unique,sage int,sgender varchar(10),slocation varchar(50),scourses varchar(100),branch varchar(20) default 'Chennai');
+Query OK, 0 rows affected (1.56 sec)
+>
